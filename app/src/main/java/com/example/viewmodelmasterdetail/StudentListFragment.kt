@@ -11,11 +11,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.viewmodelmasterdetail.databinding.FragmentFirstBinding
 
 class StudentListFragment : Fragment() {
-
     private var _binding: FragmentFirstBinding? = null
-
     private val viewModel: StudentsViewModel by activityViewModels()
-
     private val binding get() = _binding!!
 
     override fun onCreateView(
